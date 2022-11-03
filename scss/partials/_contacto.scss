@@ -1,0 +1,35 @@
+/* Contacto Inicio */
+form {
+    margin-top: 15px;
+
+    .card-header {
+        background: linear-gradient(to right, orange, rgba(255, 166, 0, 0.603), orange);
+        text-transform: capitalize;
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        text-shadow: 0 0 5px #000;
+    }
+
+    .formButton {
+        background-color: $mainColor;
+        border-color: rgba(0, 0, 0, 0.438);
+        box-shadow: 0 0 5px $mainColor;
+        color: black;
+
+        &:hover {
+            background-color: rgba(255, 68, 0, 0.781);
+            color: black;
+            text-shadow: 0 0 5px $mainColor;
+            box-shadow: 0 0 5px rgba(255, 68, 0, 0.555);
+
+
+            &:active {
+                background-color: $mainColor;
+                color: white !important;
+
+            }
+        }
+    }
+}
+/* Contacto Fin */

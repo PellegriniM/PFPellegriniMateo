@@ -1,0 +1,22 @@
+/* Niveles Inicio */
+.nivelesGradRight {
+    background: linear-gradient(to right, #ffd900, $mainColor);
+}
+
+.nivelesGradLeft {
+    background: linear-gradient(to left, #ffd900, $mainColor);
+}
+
+.nivelesShadow {
+    box-shadow: 0 0 10px black;
+}
+
+.nivelesT {
+    color: white;
+}
+
+.shadowText {
+    text-shadow: 0 0 5px red;
+}
+
+/* Niveles fin */

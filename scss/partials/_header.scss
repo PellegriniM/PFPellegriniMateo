@@ -1,0 +1,33 @@
+/* Header Inicio */
+#banner {
+    background-image: url(../images/banner.jpg);
+    height: 1px;
+}
+
+.navbar{
+    background-color: $mainColor;
+    
+    .navbar-brand {
+        color: white;
+        text-shadow: 0 0 5px #000;
+        &::before {
+            content: icon url(test.ico);
+        }
+    }
+
+    .nav-link {
+        color: white !important;
+        text-shadow: 0 0 5px #000;
+        text-transform: capitalize;
+        font-size: 20px;
+        &:hover {
+            color: red;
+            text-shadow: 0 0 5px rgba(255, 68, 0, 0.555);
+        }
+    }
+
+    .navbar-toggler-icon {
+        box-shadow: 0 0 5px #000;
+    }
+}
+/* Header Fin */

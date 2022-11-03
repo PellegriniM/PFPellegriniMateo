@@ -1,0 +1,46 @@
+/* Main Inicio */
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../Images/english.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 5px orange;
+    border-radius: 0;
+    margin: 0;
+    height: 100%;
+
+    p {
+        color: white;
+        font-size: 25px;
+        text-shadow: 0 0 2px orange;
+    }
+}
+
+.card-body {
+    background-color: #ffa6007e;
+}
+
+body {
+    background-color: $secondaryColor;
+}
+
+h2 {
+    background-color: rgba(255, 166, 0, 0.562);
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.nosotrosTitle {
+    background-color: $mainColor;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+}
+/* Main Fin */

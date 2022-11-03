@@ -1,7 +1,8 @@
-* {
-    background-color: purple;
-}
-
-h1 {
-    color: white;
-}
+@import "./partials/variables";
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/pageimages";
+@import "./partials/nosotros";
+@import "./partials/niveles";
+@import "./partials/contacto";
+@import "./partials/footer";

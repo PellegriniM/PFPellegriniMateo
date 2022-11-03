@@ -1,0 +1,35 @@
+/* Nosotros Inicio */
+.nright {
+    background-image: url(../Images/inlustrativo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.nosotros {
+    background-image: linear-gradient(rgba(255, 174, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(255, 174, 0, 0.5)),
+        url(../Images/englishwhite.jpg);
+}
+
+.botonNosotros {
+    background-color: $secondaryColor;
+    /* Green */
+    border: 0 0 black;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $mainColor;
+        color: white;
+        box-shadow: 0 0 5px black;
+    }
+}
+
+/* Nosotros Fin */
